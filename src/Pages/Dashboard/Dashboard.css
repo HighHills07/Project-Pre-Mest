@@ -91,3 +91,32 @@
      /* margin-bottom: 50px; */
 
 }
+
+.msg1{
+    display: flex;
+    flex-direction: column;
+    flex: 0.9;
+}
+
+
+.msg2{
+    display: flex;
+    flex-direction: row;
+    flex: 0.1;
+    justify-content: center;
+   
+}
+
+.msg3{
+    width: 70%;
+    height: 60%;
+    align-self: center;
+    justify-self: flex-start;
+    border-radius: 15px;
+    outline: none;
+}
+
+.send{
+    align-self: center;
+    margin-left: 10px;
+}

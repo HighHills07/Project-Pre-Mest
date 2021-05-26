@@ -27,7 +27,13 @@ function Dashboard() {
                <input type="text" placeholder="Search" className="search"></input>
           
            </div>
-           <div className="chat"></div>
+           <div className="chat">
+               <div className="msg1"></div>
+               <div className="msg2">
+                   <input type="text" placeholder="Put in your treasure here" className="msg3"></input>
+                   <Button colorScheme="twitter" className="send">Send</Button>
+               </div>
+           </div>
 
             </div>
             
