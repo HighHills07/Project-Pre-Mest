@@ -28,7 +28,26 @@ function Dashboard() {
           
            </div>
            <div className="chat">
-               <div className="msg1"></div>
+               <div className="msg1">
+               
+               <div className="bubblem">
+                   <div className="bubble1"></div>
+               </div>
+               <div className="bubblen">
+               <div className="bubble2"></div>
+               </div>
+               <div className="bubblem">
+               <div className="bubble1"></div>
+               </div>
+               <div className="bubblen">
+               <div className="bubble2"></div>
+               </div>
+               <div className="bubblem">
+               <div className="bubble1"></div>
+               </div>
+    
+
+               </div>
                <div className="msg2">
                    <input type="text" placeholder="Put in your treasure here" className="msg3"></input>
                    <Button colorScheme="twitter" className="send">Send</Button>
